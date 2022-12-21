@@ -1,5 +1,30 @@
-td img{
-    width: 190px;
-    height: 100px;
-    object-fit: cover;
+.title {
+  color: gray;
+  font-size: 28px;
+  text-align: center;
+}
+
+.cities-table {
+  width: 80%;
+  margin-inline: 10%;
+  margin-top: 5%;
+  border: 0;
+}
+
+.cities-table td img {
+  width: 190px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.cities-table th {
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.cities-table tbody tr:nth-child(odd) {
+  background-color: white;
+}
+.cities-table tbody tr:nth-child(even) {
+  background-color: #e9ecef;
 }
